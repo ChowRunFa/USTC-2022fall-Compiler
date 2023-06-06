@@ -1,0 +1,3 @@
+"D:\Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PLall.dir/objects.a
+X:\Dev_C++\Dev-Cpp\mingw64\bin\ar.exe cr CMakeFiles\PLall.dir/objects.a @CMakeFiles\PLall.dir\objects1.rsp
+X:\Dev_C++\Dev-Cpp\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\PLall.dir/objects.a -Wl,--no-whole-archive -o PLall.exe -Wl,--out-implib,libPLall.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PLall.dir\linklibs.rsp

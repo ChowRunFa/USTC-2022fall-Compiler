@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PLall"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Clion/PLall/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Clion/PLall/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLall">
+				<Option output="D:/Clion/PLall/cmake-build-debug/PLall.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion/PLall/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Clion/PLall/."/>
+					<Add directory="X:/Dev_C++/Dev-Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="X:/Dev_C++/Dev-Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="X:/Dev_C++/Dev-Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="X:/Dev_C++/Dev-Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLall"/>
+					<CompileFile command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLall/fast">
+				<Option output="D:/Clion/PLall/cmake-build-debug/PLall.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion/PLall/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Clion/PLall/."/>
+					<Add directory="X:/Dev_C++/Dev-Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="X:/Dev_C++/Dev-Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="X:/Dev_C++/Dev-Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="X:/Dev_C++/Dev-Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLall/fast"/>
+					<CompileFile command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Clion/PLall/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Dev_C++/Dev-Cpp/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/PLall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Clion/PLall/pl0.c">
+			<Option target="PLall"/>
+		</Unit>
+		<Unit filename="D:/Clion/PLall/pl0.h">
+			<Option target="PLall"/>
+		</Unit>
+		<Unit filename="D:/Clion/PLall/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

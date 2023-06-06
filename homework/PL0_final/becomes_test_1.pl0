@@ -1,0 +1,10 @@
+var i,j;
+
+begin
+  i := 1;
+  j := 2;
+
+  if (i := 3)<(j := 4) then print(i,j);
+  else print(j,i);  
+end.
+

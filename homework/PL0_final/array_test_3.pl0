@@ -1,0 +1,20 @@
+var x[10][10];
+
+begin
+  for (var i1:(0,9))
+  begin
+    for (var j1:(0,9))
+    begin
+      x[i1][j1] := i1+j1;
+    end
+  end
+  for (var i2:(0,9))
+  begin
+    for (var j2:(0,9))
+    begin
+      print(x[i2][j2]);
+    end
+  print();
+  end
+end.
+
